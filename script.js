@@ -89,6 +89,8 @@ function addTask(taskTextFromStorage, isCompleted = false) {
       }
     };
 
+
+
     cancelBtn.onclick = function () {
       li.replaceChild(span, newInput);
       if (li.contains(actionGroup)) {
